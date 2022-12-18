@@ -380,8 +380,8 @@
   width: 300px;
   height: 100px; 
   bottom: 55px;
-  right: 160px;
-  line-height: 50px;
+  right: 130px;
+  line-height: 51px;
   background: linear-gradient(to right, rgba(120, 183, 235, 0.911), rgba(0,0,0,0.1)); 
   color:rgb(37, 37, 37);
   border-radius: 50px;
@@ -403,7 +403,7 @@
     height: 90px;
     line-height: 85px;
     bottom: 60px;
-    right: 62px;
+    right:30px;
     background: #0df053;
     color:#fff;
     border-radius: 50px;
@@ -430,5 +430,14 @@
     }
     .sms-whatsapp{
       display:none !important;
+    }
+    .btn-wsp{
+      position: fixed;
+      width: 70px;
+      height: 70px;
+      line-height: 65px;
+      bottom: 60px;
+      right: 60px;
+      font-size: 60px;
     }
   }

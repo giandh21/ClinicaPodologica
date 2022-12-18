@@ -273,11 +273,11 @@ Features Style
 }
 
 .first-feature:hover .icon {
-  background-image: url(./resource/pie_blanco.png);
+  background-image: url(/resource/pie_blanco.png);
 }
 
 .second-feature:hover .icon {
-  background-image: url(./resource/botiquin_negro.png);
+  background-image: url(/resource/botiquin_negro.png);
 }
 
 .features-item .number h6 {
@@ -296,27 +296,28 @@ Features Style
 }
 
 .features-item .first-number h6 {
-  background-image: url(./resource/features-number-01.png);
+  background-image: url(/resource/features-number-01.png);
 }
 
 .features-item .second-number h6 {
-  background-image: url(./resource/features-number-02.png);
+  background-image: url(/resource/features-number-02.png);
 }
 
 .features-item .third-number h6 {
-  background-image: url(./resource/features-number-03.png);
+  background-image: url(/resource/features-number-03.png);
 }
 
 .features-item .fourth-number h6 {
-  background-image: url(./resource/features-number-04.png);
+  background-image: url(/resource/features-number-04.png);
 }
 
 .first-feature .icon {
-  background-image: url(./resource/pie_negro.png);
+  background-image: url(
+    /resource/pie_negro.png);
 }
 
 .second-feature .icon {
-  background-image: url(./resource/botiquin_blanco.png);
+  background-image: url(/resource/botiquin_blanco.png);
 }
 
 .features-item .icon {
@@ -798,8 +799,9 @@ contact
 }
 
 .contact-us .contact-info {
-  padding: 40px 20px;
+  padding: 40px 40px;
   border: 2px solid #eee;
+  
 }
 
 .contact-us .contact-info ul li {
@@ -809,7 +811,7 @@ contact
 }
 
 .contact-us .contact-info ul li a {
-  font-size: 20px;
+  font-size: 16px;
   margin: 0 -55px ;
   color: #8b8888;
   transition: all .5s;
@@ -848,7 +850,7 @@ form#contact input {
   background-color: transparent;
   border: 2px solid #efefef;
   outline: none;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 300;
   color: #2a2a2a;
   padding: 0px 20px;

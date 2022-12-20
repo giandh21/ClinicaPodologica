@@ -1,40 +1,7 @@
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Clinica Podológica SR</title>
-        <link rel="stylesheet" href="./css/styles.css">
-        <!-- Additional CSS Files -->
-        <link rel="stylesheet" href="./css/fontawesome.css">
-        <link rel="stylesheet" href="./css/templatemo-seo-dream.css">
-        <link rel="stylesheet" href="./css/animated.css">
-        <link rel="stylesheet" href="./css/owl.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"  referrerpolicy="no-referrer" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    </head>
-    <body>
-        <header>
-            <a href="#" class="brand">
-                <img src="./resource/logo_oficial.png">
-            </a>
-            <nav class="menu">
-            <div class="btn">
-                <i class="fas fa-times close-btn"></i>
-            </div>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#features">Servicios</a></li>
-                <li><a href="#about">Nosotros</a></li>
-                <li><a href="#">Promociones</a></li>
-                <li><a href="#contact">Contáctanos</a></li>
-            </ul>
-            </nav>
-            <div class="btn">
-            <i class="fas fa-bars menu-btn"></i>
-            </div>
-        </header>
+<?php
+  include 'cabecera.php';
+?>
+<!-- Cuerpo principal -->
     
         <section class="section-main container-fluid">
             <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -67,11 +34,7 @@
                 </div>
             </div>    
         </section>
-    
-        <!-- <section class="section-two">
-            <h2>Protect Rainforests</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section> -->
+  
         <!-- SERVICIOS -->
         <div id="features" class="features section">
             <div class="container">
@@ -92,7 +55,7 @@
                         <div class="line-dec"></div>
                         <p>Ayudamos a tratar y minimizar los diferentes patologías y problemas en los pies de las personas mayores, y que contribuyen a disminuir su calidad de vida.</p>
                         <br>
-                        <a href="#" class="btn-pag"> Ver más</a>
+                        <button type="button" class=" btn-pag" data-bs-toggle="modal" data-bs-target="#service1">Ver más</button>
                       </div>
                     </div>
                     <div class="col-lg-3">
@@ -105,7 +68,7 @@
                         <div class="line-dec"></div>
                         <p>Existen distintos tratamientos para tratar una micosis ungueal, dentro de la consulta,se evalúa cuál es el indicado según cada paciente.</p>
                         <br>
-                        <a href="#" class="btn-pag"> Ver más</a> 
+                        <button type="button" class=" btn-pag" data-bs-toggle="modal" data-bs-target="#service2">Ver más</button>
                       </div>
                     </div>
                     <div class="col-lg-3">
@@ -119,7 +82,7 @@
                         <p>Depende sea el caso ,se realiza la reconstrucción de la lámina 
                             Con distintos métodos, el profesional será quien indique la técnica de reconstrucción a utilizar.</p>
                             <br>
-                            <a href="#" class="btn-pag"> Ver más</a>
+                            <button type="button" class=" btn-pag" data-bs-toggle="modal" data-bs-target="#service3">Ver más</button>
                           </div>
                     </div>
                     <div class="col-lg-3">
@@ -132,7 +95,7 @@
                         <div class="line-dec"></div>
                         <p>Nuestro equipo de atención médica puede diagnosticar una uña encarnada a partir de los síntomas y de un examen físico de la uña y la piel alrededor de esta.</p>
                         <br>
-                        <a href="#" class="btn-pag"> Ver más</a>  
+                        <button type="button" class=" btn-pag" data-bs-toggle="modal" data-bs-target="#service4">Ver más</button>
                       </div>
                     </div>
                     </div>
@@ -146,11 +109,11 @@
                 <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6 ">
-                    <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="left-image wow fadeInUp text-center"  data-wow-duration="1s" data-wow-delay="0.7s">
                         <img src="./resource/atencion1.jpeg" alt="">
                     </div>
                     </div>
-                    <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="col-lg-6 align-self-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
                     <div class="section-heading">
                         <h2 class="subtitle-desc"><b>Nosotros</b> </h2>
                     </div>
@@ -172,7 +135,7 @@
                         </div>
                         </div>
                     </div><br>
-                    <div class="text-center mt-3 p-2"><a href="https://api.whatsapp.com/send?phone=56959203931&text=Hola!%20Bienvenid%40%20a%20Cl%C3%ADnica%20Podol%C3%B3gica%2C%20%C2%BFEn%20qu%C3%A9%20te%20podemos%20ayudar%3F" class="btn-pag">Ver más</a></div>
+                    <div class="text-center mt-3 p-2"><a href="about.php" class="btn-pag">Ver más</a></div>
                     </div>
                 </div>
                 </div>
@@ -253,66 +216,11 @@
                 </div>
               </div>
             
-              <footer class="footer-distributed wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
- 
-                <div class="footer-left text-center "  >
-           
-                  <img src="./resource/logo_repuesto.png" alt="logo" width="380">
-           
-                  <p class="footer-links">
-                    <a href="#">Inicio</a>
-                    ·
-                    <a href="#features">Servicios</a>
-                    ·
-                    <a href="#about">Nosotros</a>
-                    ·
-                    <a href="#">Promociones</a>
-                    ·
-                    <a href="#contact">Contacto</a>
-                  </p>
-           
-                  <p class="footer-company-name">Derechos Reservados &copy; 2022</p>
-                </div>
-           
-                <div class="footer-center">
-                                        
-                  <div>
-                    <i class="fa fa-phone"></i>
-                    <p>+56 920398860</p>
-                  </div>
-           
-                  <div>
-                    <i class="fa fa-envelope"></i>
-                    <p><a href="mailto:seleneramirez253@gmail.com">seleneramirez253@gmail.com</a></p>
-                  </div>
-           
-                </div>
-           
-                <div class="footer-right">
-             
-                  <div class="footer-icons">
-           
-                    <a href="https://www.facebook.com/Podossalud" target="_blank"><i class="fa-brands fa-facebook"></i></i></a>
-                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                    <a href="https://www.instagram.com/podologa_selene_ramirez/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-           
-                  </div>
-           
-                </div>
-           
-              </footer> 
-  </footer>
-  <div class="sms-whatsapp">
-    <p> ¿Nesecitas Ayuda?</p>
-    <h4><strong>Escribenos al Whatsapp</strong></h4>
-  </div>
-  <a href ="https://api.whatsapp.com/send?phone=56959203931&text=Hola!%20Bienvenid%40%20a%20Cl%C3%ADnica%20Podol%C3%B3gica%2C%20%C2%BFEn%20qu%C3%A9%20te%20podemos%20ayudar%3F" class="btn-wsp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
-            <script src="./js/menu.js"></script>
-            <script src="./js/owl-carousel.js"></script>
-            <script src="./js/animation.js"></script>
-            <script src="./js/imagesloaded.js"></script>
-            <script src="./js/custom.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    </body>
-    </html>
+             <!--final del cuerpo principal  -->
+<?php
+ include "services1.php";
+ include "services2.php";
+ include "services3.php";
+ include "services4.php";
+ include "footer.php";
+?>
